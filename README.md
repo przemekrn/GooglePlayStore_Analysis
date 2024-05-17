@@ -15,5 +15,5 @@ https://www.kaggle.com/datasets/bhavikjikadara/google-play-store-applications
 
 ## 📷 Graphs
 <img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch1.png" height="450" alt="Distribution Of Ratings">
-<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch2.png" height="450" width="900" alt="Top 10 Apps by Reviews">
-<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch3.png" height="450" width="900" alt="App Categories">
+<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch2.png" height="450" alt="Top 10 Apps by Reviews">
+<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch3.png" height="450" alt="App Categories">
