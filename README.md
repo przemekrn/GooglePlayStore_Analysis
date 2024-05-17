@@ -14,7 +14,6 @@ https://www.kaggle.com/datasets/bhavikjikadara/google-play-store-applications
 - **Scales**: Our artist, painting the story of data through visualization. This library assists us in customizing the scales of our ggplot2 plots, enabling precise and clear data representation.
 
 ## 📷 Graphs
-<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch1.jpg" height="450" alt="Number of new pokemon added by generation">
-<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch2.jpg" height="450" width="900" alt="differences between legendary and non-legendary pokemon">
-<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch3.jpg" height="450" width="900" alt="Pokemon type matchup">
-<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch4.jpg" height="450" width="900"alt="Most common dual-type pokemon combinations">
+<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch1.jpg" height="450" alt="Distribution Of Ratings">
+<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch2.jpg" height="450" width="900" alt="Top 10 Apps by Reviews">
+<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch3.jpg" height="450" width="900" alt=App Categories">
