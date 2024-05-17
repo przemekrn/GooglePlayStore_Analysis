@@ -14,6 +14,6 @@ https://www.kaggle.com/datasets/bhavikjikadara/google-play-store-applications
 - **Scales**: Our artist, painting the story of data through visualization. This library assists us in customizing the scales of our ggplot2 plots, enabling precise and clear data representation.
 
 ## 📷 Graphs
-<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch1.jpg" height="450" alt="Distribution Of Ratings">
-<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch2.jpg" height="450" width="900" alt="Top 10 Apps by Reviews">
-<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch3.jpg" height="450" width="900" alt=App Categories">
+<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch1.png" height="450" alt="Distribution Of Ratings">
+<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch2.png" height="450" width="900" alt="Top 10 Apps by Reviews">
+<img src="https://github.com/przemekrn/GooglePlayStore_Analysis/tree/main/charts/ch3.png" height="450" width="900" alt="App Categories">
