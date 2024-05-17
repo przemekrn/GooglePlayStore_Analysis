@@ -1,3 +1,7 @@
+#Libaries
+library(ggplot2)
+library(scales)
+
 # Load the dataset
 apps_data <- read.csv("DataSets/googleplaystore.csv")
 
@@ -11,7 +15,7 @@ apps_data <- apps_data[!duplicated(apps_data), ]
 summary(apps_data)
 
 # Distribution of Ratings
-library(ggplot2)
+
 ggplot(apps_data, aes(x = Rating)) +
   geom_histogram(binwidth = 0.1, fill = "skyblue", color = "black") +
   labs(title = "Distribution of Ratings", x = "Rating") +
@@ -19,13 +23,18 @@ ggplot(apps_data, aes(x = Rating)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-# Top 10 Apps by Reviews
-top_10_apps <- head(apps_data[order(apps_data$Reviews, decreasing = TRUE), ], 10)
-ggplot(top_10_apps, aes(x = App, y = Reviews)) +
+# Ensure Reviews is numeric
+apps_data$Reviews <- as.numeric(as.character(apps_data$Reviews))
+# Get top 10 apps by reviews
+top_10_apps <- head(apps_data[order(apps_data$Reviews, decreasing = TRUE), ], 30)
+# Plot
+ggplot(top_10_apps, aes(x =App, y = Reviews)) +
   geom_bar(stat = "identity", fill = "skyblue") +
   labs(title = "Top 10 Apps by Reviews", y = "Reviews") +
   theme_minimal() +
-  coord_flip()
+  coord_flip() +
+  scale_y_continuous(labels = scales::comma)
+
 
 # App Categories
 ggplot(apps_data, aes(x = Category)) +
